@@ -1,0 +1,29 @@
+1 million attributes
+
+Bitset example run:
+(base) PS C:\Users\zczak\Desktop\hnswlib-filter> .\example_bitset.exe
+Generating random data and attributes...
+Data generation completed in 342.698 seconds.
+Adding data to index...
+Data added to index in 7.15187 seconds.
+Performing search with filter...
+Search completed in 310.597 seconds.
+
+
+Roaring bitmap example run:
+(base) PS C:\Users\zczak\Desktop\hnswlib-filter> .\example_croaring.exe
+Generating random data and attributes...
+Data generation completed in 355.498 seconds.
+Adding data to index...
+Data added to index in 6.203 seconds.
+Performing search with filter...
+Search completed in 8.6197 seconds.
+
+
+O(p) example run: (it took more than 90 minutes so i stopped it manually)
+(base) PS C:\Users\zczak\Desktop\hnswlib-filter> .\example_Op.exe
+Generating random data and attributes...
+Data generation completed in 438.377 seconds.
+Adding data to index...
+Data added to index in 6.62276 seconds.
+Performing search with filter...
